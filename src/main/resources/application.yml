@@ -1,7 +1,8 @@
 spring:
   datasource:
-    url: "jdbc:mysql://anonymous-db.cbmw802mu38i.ap-northeast-2.rds.amazonaws.com:3306/anonymous?serverTimezone=Asia/Seoul&character_set_server=utf8mb4&collation-server=utf8mb4_general_ci&allowMultiQueries=true"
-    username: "park7614"
+
+    url: "jdbc:mysql://anonymous-db.chusisqoid5w.ap-northeast-2.rds.amazonaws.com:3306/anonymous?serverTimezone=Asia/Seoul&character_set_server=utf8mb4&collation-server=utf8mb4_general_ci&allowMultiQueries=true"
+    username: "shpark"
     password: ${MYSQL_SECRET}
     driver-class-name: com.mysql.cj.jdbc.Driver
     tomcat:
@@ -13,3 +14,4 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug
+
